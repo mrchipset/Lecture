@@ -1,0 +1,14 @@
+.post-license-signature {
+    padding: 12px 24px 12px 20px;
+    margin-top: 15px;
+    position: relative;
+    background: #f8f8f8;
+    border-radius: 4px;
+    border-left: 4px solid #5e72e4;
+}
+
+.post-license-signature-table {
+    border: 0px solid #f8f8f8;
+    padding: 5px 5px;
+}
+

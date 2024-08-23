@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
 
+    <?php if ($this->is('post')): ?>
+        <link rel="stylesheet" href="<?php $this->options->themeUrl('posts.css'); ?>">
+    <?php endif; ?>
     <!-- 通过自有函数输出HTML头部信息 -->
     <?php if ($this->is('post') && $this->fields->keywords): ?>
         <?php $this->header('social=0'.'&keywords='. $this->fields->keywords); ?>
