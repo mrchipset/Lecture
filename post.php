@@ -30,8 +30,8 @@
         <p><?php _e('版权');?>: <?php _e('本文采用<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">「知识共享署名 4.0 国际许可协议」</a>进行许可。');?></p> -->
     </div>
     <ul class="post-near">
-        <li>上一篇: <?php $this->thePrev('%s', _t('没有了')); ?></li>
-        <li>下一篇: <?php $this->theNext('%s', _t('没有了')); ?></li>
+        <li>Prev: <?php $this->thePrev('%s', _t('没有了')); ?></li>
+        <li>Next: <?php $this->theNext('%s', _t('没有了')); ?></li>
     </ul>
     <?php $this->need('comments.php'); ?>
 
