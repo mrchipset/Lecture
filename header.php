@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('normalize.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
-
+    <link rel="shortcut icon" href="<?php $this->options->themeUrl('favicon.ico'); ?>" type="image/x-icon" />
+    
     <?php if ($this->is('post')): ?>
         <link rel="stylesheet" href="<?php $this->options->themeUrl('posts.css'); ?>">
     <?php endif; ?>
